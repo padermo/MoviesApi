@@ -2,5 +2,5 @@
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(3, 1fr);
-  padding: 70px;
+  padding: 80px;
 }

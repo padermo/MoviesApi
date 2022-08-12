@@ -1,0 +1,10 @@
+.contenedor-carousel{
+  padding: 0 40px;
+}
+.img-carousel{
+  height: 500px;
+  background-image: linear-gradient(rgba(16, 46, 51, 0.747), rgba(9, 28, 32, 0.726));
+}
+.gradient{
+  background-image: linear-gradient(rgba(16, 46, 51, 0.747), rgba(9, 28, 32, 0.726));
+}

@@ -35,6 +35,9 @@
   -ms-transform: scale(1.02, 1.02);
   -o-transform: scale(1.02, 1.02);
 }
+.img-movie:hover{
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.568);
+}
 .interno-movie h3{
   text-align: center;
   font-size: 1rem;
