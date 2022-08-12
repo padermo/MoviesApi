@@ -38,9 +38,11 @@
   text-align: center;
 }
 .interno-data-fav h1{
-  font-size: 2rem;
+  margin-top: 5px;
+  font-size: 1.5rem;
   font-weight: 400;
   font-family: var(--font);
+  color: white;
 }
 
 /* BTN REMOVE FAV */
