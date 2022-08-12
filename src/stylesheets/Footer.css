@@ -1,0 +1,32 @@
+:root{
+  --font: 'Signika Negative', sans-serif;;
+}
+
+.contenedor-footer{
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+.contenedor-interno-footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contenedor-interno-footer h3{
+  font-family: var(--font);
+  font-size: 1.5rem;
+}
+
+
+/* TODO INTERNO UNO */
+.interno-uno{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* TODO ICON FONTAWESOME */
+.icon-copy{
+  width: 20px;
+  height: 20px;
+}
