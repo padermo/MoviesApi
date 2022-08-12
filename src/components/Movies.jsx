@@ -5,6 +5,7 @@ import '../stylesheets/Movies.css'
 
 function Movies() {
   const state = useSelector(state => state.movies)
+
   return (
     <div className='contenedor-movies'>
       {

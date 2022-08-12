@@ -8,9 +8,9 @@
 
 /* TODO CONTAINER PARENT */
 .contenedor-nav{
-  background: linear-gradient(rgba(14, 39, 44, 0.76), rgba(33, 64, 71, 0.74)), url('../resources/backgroundNav.png');
+  /* background: linear-gradient(rgba(14, 39, 44, 0.76), rgba(33, 64, 71, 0.74)), url('../resources/backgroundNav.png');
   background-size: 100%;
-  background-attachment: fixed;
+  background-attachment: fixed; */
   color: var(--colorFont);
   padding: 10px;
   width: 98.4%;

@@ -9,12 +9,13 @@ function Favorites() {
   const state = useSelector(state => state.favorites)
   const dispatch = useDispatch()
 
+
   console.log('Favorites', state);
   return (
     <div className='contenedor--favorites'>
       {
         state.map(e => (
-          <div className='contenedor-interno-fav' key={e.id}>
+          <div className='contenedor-interno-fav' key={e.id} >
             <div className="interno-img-fav">
               <img src={e.image} alt={`Imagen de ${e.name}`} />
             </div>
