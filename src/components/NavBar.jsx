@@ -4,6 +4,7 @@ import "../stylesheets/NavBar.css";
 import { Link } from "react-router-dom";
 
 function NavBar() {
+
   return (
     <div className="contenedor-nav">
       <div className="contenedor-interno-nav">
@@ -14,12 +15,16 @@ function NavBar() {
         </div>
 
         <div className="interno-link">
-          <Link to="/" className="link">
-            Home
-          </Link>
-          <Link to="/favorites" className="link">
-            Favorites
-          </Link>
+          <div>
+            <Link to="/" className="link">
+              Home
+            </Link>
+          </div>
+          <div>
+            <Link to="/favorites" className="link">
+              Favorites
+            </Link>
+          </div>
         </div>
 
         <div className="interno-search">

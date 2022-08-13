@@ -1,19 +1,22 @@
 :root{
   --colorTrash: #B40505;
   --font: 'Raleway', sans-serif;
+  --colorHover: rgb(20, 152, 182);
 }
 
 .contenedor--favorites{
   display: grid;
   justify-content: center;
   align-items: center;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   padding: 20px;
   margin: 20px;
 }
 .contenedor-interno-fav{
   margin: 10px;
 }
+
+/* IMAGE MOVIE */
 .interno-img-fav{
   display: grid;
   justify-content: center;
@@ -25,6 +28,9 @@
   -ms-transform: scale(1.02, 1.02);
   -o-transform: scale(1.02, 1.02);
 }
+.contenedor-interno-fav:hover h1{
+  color: var(--colorHover);
+}
 .interno-img-fav img{
   width: 300px;
   height: 400px;
@@ -34,6 +40,8 @@
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+
+/* NAME MOVIE */
 .interno-data-fav{
   text-align: center;
 }
@@ -47,6 +55,9 @@
 
 /* BTN REMOVE FAV */
 .btn-remove-fav{
+  position: relative;
+  top: -33px;
+  right: -130px;
   border: none;
   background-color: transparent;
   outline: none;

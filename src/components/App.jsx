@@ -12,7 +12,7 @@ function App() {
     <div className='contenedor-app'>
       <div className='interno-app-nav'>
         <NavBar />
-        <Carousel />
+        {/* <Carousel /> */}
         <Route exact path='/' render={()=> <Movies />}/>
         <Route path='/favorites' render={() => <Favorites />} />
         <Footer />

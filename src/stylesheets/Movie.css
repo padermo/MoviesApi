@@ -69,13 +69,27 @@
   outline: none;
   background-color: transparent;
 }
+
+/* ICON FONT AWESOME */
 .icon-star{
   cursor: pointer;
-  color: var(--iconStar);
+  color: white;
   width: 25px;
   height: 25px;
 }
 .icon-star:hover{
+  transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
+}
+.lleno{
+  color: var(--iconStar);
+  width: 25px;
+  height: 25px;
+}
+.lleno:hover{
   transform: scale(1.1, 1.1);
   -webkit-transform: scale(1.1, 1.1);
   -moz-transform: scale(1.1, 1.1);
