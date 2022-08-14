@@ -13,9 +13,16 @@ export default function reducer(state = initialState, action) {
         movies: action.payload
       }
     case ADD_FAVORITES:
-      return {
-        ...state,
-        favorites: [...state.favorites, action.payload]
+      if(!state.favorites.includes(action.payload)){
+        return{
+          ...state,
+          favorites: [...state.favorites, action.payload]
+        }
+      }else{
+        return{
+          ...state,
+          favorites: [...state.favorites]
+        }
       }
     case REMOVE_FAVORITES:
       return {
