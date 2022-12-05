@@ -17,13 +17,14 @@ function SearchBar() {
   function onSubmit(e) {
     e.preventDefault()
     dispatch(getMovies(input))
+    setInput("")
   }
 
   return (
     <div className="contenedor-search">
       <form onSubmit={onSubmit}>
         <div className='border-search'>
-          <input className='input input-text' type="text" placeholder="Search Movie..." onChange={onChange} />
+          <input className='input input-text' type="text" placeholder="Search Movie..." onChange={onChange} value={input} />
           <button className='btn-icon'>
             <FontAwesomeIcon icon={faMagnifyingGlass} type="submit" className='search-icon' onClick={onSubmit} />
           </button>
